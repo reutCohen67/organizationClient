@@ -1,0 +1,82 @@
+.profile-container {
+  width: 70%;
+  margin: auto;
+  padding: 20px 0;
+  position: relative;
+  z-index: 1;
+}
+
+.data {
+  background-color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.task-sub-wrapper {
+  min-height: 91px;
+  width: 100%;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.16);
+  margin: 12px 0;
+}
+
+.profile-item {
+  display: flex;
+  height: 150px;
+  column-gap: 20px;
+}
+
+.image {
+  width: 100px;
+  height: 100%;
+  background-color: yellow;
+  margin-right: 100px;
+}
+
+.data-item {
+  text-align: left;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #444444;
+  margin: 15px 0;
+}
+
+.sub-title {
+  text-align: left;
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: capitalize;
+  color: #444444;
+  margin-top: 30px;
+}
+
+.task-inner {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.task-item {
+  flex: 1;
+  text-transform: capitalize;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.btn-primary {
+  width: fit-content;
+  padding: 5px 10px;
+  text-decoration: none;
+  background-color: #84a4fc;
+  border: none;
+  color: white;
+  border-radius: 10px;
+
+  cursor: pointer;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
