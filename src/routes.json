@@ -1,3 +1,6 @@
 {
+  "LANDING": "/",
+  "LOGIN": "/users/login",
+  "REGISTER": "/users/register",
   "USERS": "/users"
 }

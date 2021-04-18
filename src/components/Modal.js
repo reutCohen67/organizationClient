@@ -14,7 +14,6 @@ const Modal = ({ show, setShow, kind, sub }) => {
   const [startDate, setStartDate] = useState(new Date());
   const {
     user: { user, manager },
-    loading,
   } = useSelector((state) => state.user);
 
   const dispatch = useDispatch();

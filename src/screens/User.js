@@ -20,7 +20,7 @@ const User = () => {
 
   useEffect(() => {
     dispatch(getUser(id));
-  }, []);
+  }, [dispatch, id]);
 
   return (
     <div className='profile-container'>
@@ -38,7 +38,7 @@ const User = () => {
         </div>
       )}
       <div className='sub-title'>My tasks:</div>
-      <TaskItem user={user} tasks={tasks} />
+      <TaskItem key={tasks} user={user} tasks={tasks} />
       <div className='sub-title'>my subordinates:</div>
       <div className='task-sub-wrapper'>
         {!subs || subs.length === 0 ? (

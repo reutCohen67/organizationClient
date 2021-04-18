@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import '../../styles/user.css';
-import routes from '../../routes.json';
+
 import Modal from '../Modal';
 
 const ProfileUserItem = ({ user, manager }) => {
